@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+.header{
+    background-color: #CF0E0E;
+    position: fixed;
+    width: 100%;
+    height: 170px;
+    top: 0px;
+    z-index: 999;
+    color: #ffffff;
+ }
+  
+ .brand-img {
+   width:120px;
+   height: 120px;
+   margin-top: 5px;
+   margin-left: 140px;
+ }
+
+ .text-brand {
+    font-size: 35px;
+    font-weight: 800;
+    margin-left: 30px;
+    margin-top: 60px;
+  }
+  .text-login{
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 25px;
+    margin-top: 60px;
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    /* min-height: 100vh; */
+    margin: 0;
+    padding: 0;
+}
+.container-kiri{
+    display: flex;
+    position: relative;
+    /* align-items: center; */
+    /* justify-content: center; */
+    background-color: #CF0E0E;
+    width: 570px;
+    height: 572px;
+    margin-left: 315px;
+    margin-top: 250px;
+    border-radius: 20px 0 0 20px;
+    margin-bottom: 70px;
+    /* justify-content: space-between; */
+}
+.container-logo{
+    display: flex;
+    height: 180px;
+    width: 180px;
+    /* border: 1px solid black; */
+    margin-top: 180px;
+    margin-left: 100px;
+}
+
+.container-daftar{
+    position: relative;
+    background-color: #E4E7E4;
+    display: flex;
+    height: 572px;
+    width: 497px;
+    margin-top: -642px;
+    margin-left: 716px; 
+    /* margin-left: 190px; */
+    border-radius: 0 20px 20px 0;
+}
+.container-daftar .judul{
+    display: flex;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 180px;
+}
+.email{
+    margin-top: 170px;
+    margin-left: -230px;
+}
+.container-daftar .input-grup input{
+    height: 8%;
+    /* width: 100%; */
+    margin-top: 200px;
+    margin-left: -130px;
+    border-radius: 10px;
+    border: 1px solid #CF0E0E;
+}
+.input-grup input{
+    padding-left: 10px;
+    width: 300px;
+}
+.container-daftar .input-grup2 input{
+    height: 8%;
+    /* width: 100%; */
+    margin-top: 260px;
+    margin-left: -300px;
+    border-radius: 10px;
+    border: 1px solid #CF0E0E;
+}
+.input-grup2 input{
+    padding-left: 10px;
+    width: 300px;
+}
+.daftar{
+    font-weight: 800;
+}
+.tombol .daftar{
+    position: relative;
+    /* padding: 10px 30px; */
+    height: 45px;
+    width: 308px;
+    margin-top: 30px;
+    margin-left: -300px;
+    border-radius: 10px;
+    border: 1px solid #CF0E0E;
+    color: #ffffff;
+    background-color: #CF0E0E;
+    cursor: pointer;
+}
+.tombol .daftar:hover{
+    color: gold;
+    /* transform: scale(1.2); */
+    transition: 0.4s;
+    box-shadow: 8px 10px 21px 3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 8px 10px 21px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 8px 10px 21px 3px rgba(0,0,0,0.75);
+}
+.text{
+    margin-top: 40px;
+    margin-left: -270px;
+}
+.text-register{
+    text-decoration: none;
+    color: #0bbade;
+    font-weight: bold;
+}
+.text-register:hover{
+    color: #CF0E0E;
+}
+
+.footer {
+    border-top: 5px solid #CF0E0E;
+    top: 150px;
+    position: relative;
+    background-color: #ffffff;
+  }
+  
+  .footer {
+    font-size: 12px;
+  }
+  
+  .footer .title {
+    color: #666;
+  }
+  
+  .footer .desc {
+    color: #888;
+  }

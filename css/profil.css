@@ -1,0 +1,169 @@
+.header{
+    background-color: #CF0E0E ;
+    position: fixed;
+    width: 100%;
+    height: 150px;
+    padding-top: 10px;
+    z-index: 999;
+    color: #ffffff;
+ }
+
+ .contener{
+   width: 1200px;
+   padding: 0;
+ }
+
+ .navbar {
+   padding: 0;
+   left: 160px;
+ }
+ 
+ .navbar span {
+   font-size:15px;
+ }
+ 
+ .icon-media {
+   width: 23px;
+   height: 23px;
+ }
+
+ .text-help{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+ }
+
+ .text-help:hover{
+  color: gold;
+ }
+
+ .text-notif{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+ }
+
+ .text-notif:hover{
+  color: gold;
+ }
+
+ .btn{
+  background-color: #CF0E0E;
+  border-color: #CF0E0E;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+ }
+
+ .btn:hover{
+  color: gold;
+  transition: 0.4s;
+    box-shadow: 8px 10px 21px 3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 8px 10px 21px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 8px 10px 21px 3px rgba(0,0,0,0.75);
+ }
+
+ .dropdown-item-satu{
+  text-decoration: none;
+  color: #888;
+  font-weight: bold;
+  margin-left: 20px;
+ }
+
+ .dropdown-item-satu:hover{
+  color: #CF0E0E;
+ }
+
+ .dropdown-item-dua{
+  text-decoration: none;
+  color: #888;
+  font-weight: bold;
+  margin-left: 20px;
+ }
+
+ .dropdown-item-dua:hover{
+  color: #CF0E0E;
+ }
+
+ .dropdown-item-tiga{
+  text-decoration: none;
+  color: #888;
+  font-weight: bold;
+  margin-left: 20px;
+ }
+
+ .dropdown-item-tiga:hover{
+  color: #CF0E0E;
+ }
+
+ .profil{
+  border-radius: 50px;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+ }
+
+ .wrap-search {
+   position: relative;
+   width: 900px;
+   height: 40px;
+   left: 25px;
+   top: -8px;
+   background-color: #ffffff;
+   border-radius: 10px;
+ }
+ 
+ .wrap-icon-s {
+   position: absolute;
+   background: #A49E9E;
+   border-radius: 10px;
+   width: 70px;
+   height: 40px;
+   right: 0px;
+   top: 50%;
+   transform: translateY(-50%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .form-control {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   left: 0;
+   top: 0;
+   border: none;
+   background-color: transparent;
+ }
+ 
+ .form-control:focus {
+   box-shadow: none;
+   border-radius: 10px;
+ }
+ 
+ .brand-img {
+   width: 80px;
+   height: 80px;
+   margin-top: -15px;
+ }
+   
+ .under-input span {
+   font-size: 12px;
+   font-weight: 100;
+ }
+ 
+ .wrap-navbar-input {
+   margin-left: 50px;
+   width: 67%;
+ }
+
+ .cart{
+  color: #ffffff;
+  width: 80px; 
+  font-size: 45px;
+ }
+
+ .cart:hover{
+  color: gold;
+ }
